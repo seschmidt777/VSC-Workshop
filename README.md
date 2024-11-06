@@ -26,7 +26,9 @@ Sollte der PATH nicht korrekt eingestellt worden sein , nutz diese Anleitung:
 
 6. Python PATH hinzufügen: C:\Users<dein_username>\AppData\Local\Programs\Python\Python312
 
+
 für MAC Nutzer:
+
 
 Öffne das Terminal.
 1. Bearbeite die .bash_profile, .zshrc oder .profile Datei im Home-Verzeichnis, je nachdem, welche Shell du verwendest. Beispiel: nano ~/.bash_profile
