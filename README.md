@@ -11,7 +11,9 @@ Folgende Schritte sollten vor dem Workshop erledigt werden :
 
 Anleitung für Python Installation: https://code.visualstudio.com/docs/python/python-tutorial
 
-Sollte der PATH nicht korrekt eingestellt worden sein , nutz diese Anleitung:(WINDOWS)
+Sollte der PATH nicht korrekt eingestellt worden sein , nutz diese Anleitung:
+
+für WINDOWS Nutzer:
 
 1. In Windows das Programm "Systemumgebungsvariablen bearbeiten" öffnen
 
