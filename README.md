@@ -11,7 +11,7 @@ Wir bitten euch folgende Schritte vor dem Workshop zu erledigen:
 
 Anleitung für Python Installation: https://code.visualstudio.com/docs/python/python-tutorial
 
-
+Weitere Anweisungen sowie Extentions gehen wir dann direkt vor Ort durch. 
 
 
 
