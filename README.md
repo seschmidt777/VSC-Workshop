@@ -13,15 +13,18 @@ Anleitung für Python Installation: https://code.visualstudio.com/docs/python/py
 
 Sollte der PATH nicht korrekt eingestellt worden sein , nutz diese Anleitung:
 
-1.In Windows das Programm "Systemumgebungsvariablen bearbeiten" öffnen
+1. In Windows das Programm "Systemumgebungsvariablen bearbeiten" öffnen
 
 
-2.Auf "Umgebungsvariablen..." klicken
+2. Auf "Umgebungsvariablen..." klicken
 
 
-3.In der unteren Box "Systemvariablen" auf die "Path"-Box klicken und auf "Bearbeiten..." klicken
-4.Auf "Neu" klicken
-5.Python PATH hinzufügen: C:\Users<dein_username>\AppData\Local\Programs\Python\Python312
+3. In der unteren Box "Systemvariablen" auf die "Path"-Box klicken und auf "Bearbeiten..." klicken
+
+
+4. Auf "Neu" klicken
+
+6. Python PATH hinzufügen: C:\Users<dein_username>\AppData\Local\Programs\Python\Python312
 
 für MAC Nutzer:
 
