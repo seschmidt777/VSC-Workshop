@@ -1,9 +1,9 @@
 # VSC-Workshop
 
-# Liebe Kommilitoninnen und Kommilitonen,
+# Hallo Kommilitoninnen und Kommilitonen,
 
 am kommenden Donnerstag, den 14.11., findet unser Workshop zu "Visual Studio Code" statt.
-Wir bitten euch folgende Schritte vor dem Workshop zu erledigen:
+Folgende Schritte sollten vor dem Workshop erledigt werden :
 
 1. Visual Studio Code heruntergeladen (https://code.visualstudio.com/download)
 2. URL für Pull: https://github.com/seschmidt777/VSC-Workshop.git (Bitte noch nichts pullen !!!)
