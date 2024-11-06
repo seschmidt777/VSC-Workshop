@@ -6,7 +6,7 @@ am kommenden Donnerstag, den 14.11., findet unser Workshop zu "Visual Studio Cod
 Folgende Schritte sollten vor dem Workshop erledigt werden :
 
 1. Visual Studio Code heruntergeladen (https://code.visualstudio.com/download)
-2. URL für Pull: https://github.com/seschmidt777/VSC-Workshop.git (Bitte noch nichts pullen !!!)
+2. URL für Pull: https://github.com/seschmidt777/VSC-Workshop.git (Bitte noch nichts pullen! nur abspeichern)
 3. Python installiert (https://www.python.org/downloads/) + PATH (Wichtig bei der Installation: Aktiviere das Kontrollkästchen „Add Python to PATH“ am unteren Rand des Installationsfensters)
 
 Anleitung für Python Installation: https://code.visualstudio.com/docs/python/python-tutorial
