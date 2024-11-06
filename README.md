@@ -35,7 +35,8 @@ für MAC Nutzer:
          1. Öffne das Terminal.
    
          3. Bearbeite die .bash_profile, .zshrc oder .profile Datei im Home-Verzeichnis, je nachdem, welche Shell du verwendest. Beispiel: nano ~/.bash_profile
-         Füge die folgenden Zeilen am Ende der Datei hinzu: export PATH="/usr/local/bin/python3:$PATH"
+         
+         4. Füge die folgenden Zeilen am Ende der Datei hinzu: export PATH="/usr/local/bin/python3:$PATH"
    
          3. Speichere die Datei (Ctrl + O und Enter) und schließe den Editor (Ctrl + X).
    
