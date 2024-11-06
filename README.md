@@ -11,7 +11,7 @@ Folgende Schritte sollten vor dem Workshop erledigt werden :
 
 Anleitung für Python Installation: https://code.visualstudio.com/docs/python/python-tutorial
 
-Sollte der PATH nicht korrekt eingestellt worden sein , nutz diese Anleitung:
+Sollte der PATH nicht korrekt eingestellt worden sein , nutz diese Anleitung:(WINDOWS)
 
 1. In Windows das Programm "Systemumgebungsvariablen bearbeiten" öffnen
 
@@ -38,6 +38,8 @@ Füge die folgenden Zeilen am Ende der Datei hinzu: export PATH="/usr/local/bin/
 3. Speichere die Datei (Ctrl + O und Enter) und schließe den Editor (Ctrl + X).
    
 4. Lade die Änderungen neu: source ~/.bash_profile
+
+
 
 
 
