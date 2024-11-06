@@ -29,10 +29,13 @@ Sollte der PATH nicht korrekt eingestellt worden sein , nutz diese Anleitung:
 für MAC Nutzer:
 
 Öffne das Terminal.
-1.Bearbeite die .bash_profile, .zshrc oder .profile Datei im Home-Verzeichnis, je nachdem, welche Shell du verwendest. Beispiel: nano ~/.bash_profile
-2.Füge die folgenden Zeilen am Ende der Datei hinzu: export PATH="/usr/local/bin/python3:$PATH"
-3.Speichere die Datei (Ctrl + O und Enter) und schließe den Editor (Ctrl + X).
-4.Lade die Änderungen neu: source ~/.bash_profile
+1. Bearbeite die .bash_profile, .zshrc oder .profile Datei im Home-Verzeichnis, je nachdem, welche Shell du verwendest. Beispiel: nano ~/.bash_profile
+
+2. Füge die folgenden Zeilen am Ende der Datei hinzu: export PATH="/usr/local/bin/python3:$PATH"
+   
+3. Speichere die Datei (Ctrl + O und Enter) und schließe den Editor (Ctrl + X).
+   
+4. Lade die Änderungen neu: source ~/.bash_profile
 
 
 Weitere Anweisungen sowie Extentions gehen wir dann direkt vor Ort durch. 
