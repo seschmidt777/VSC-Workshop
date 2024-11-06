@@ -40,7 +40,9 @@ Füge die folgenden Zeilen am Ende der Datei hinzu: export PATH="/usr/local/bin/
 4. Lade die Änderungen neu: source ~/.bash_profile
 
 
+
 Weitere Anweisungen sowie Extentions gehen wir dann direkt vor Ort durch. 
+
 
 
 
