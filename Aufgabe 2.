@@ -8,7 +8,7 @@ Löse die 2 Aufgabe und erhalten den zweiten Buchstaben für das Lösungswort.
     <title>Der geheime Pfad - Station 2</title>
     <script>
         function decodeAnswer() {
-            const encodedAnswer = [53, 51, 52, 56]; // Verschlüsselte Form von "2015" als ASCII-Codes
+            const encodedAnswer = [53, 51, 52, 56]; 
             let decodedAnswer = "";
             for (let i = 0; i < encodedAnswer.length; i++) {
                 decodedAnswer += String.fromCharCode(encodedAnswer[i] - 3); // Zurück zu "2015"
