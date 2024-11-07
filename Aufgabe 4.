@@ -1,3 +1,5 @@
+// Aufgabe 4. Der Code enthält Fehler, löse diese und erhalte den vierten Buchstaben.
+
 def add(a, b):
     return a + b
 
