@@ -1,0 +1,119 @@
+<mxfile host="65bd71144e">
+    <diagram id="ldcqs0lYL_E-GA7hrbPB" name="Page-1">
+        <mxGraphModel dx="2026" dy="1139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Willkommen im Labyrinth : Suche nach dem 3 Buchstaben. Folge dem richtigen Pfad&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="350" width="200" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" style="edgeStyle=none;html=1;entryX=0.457;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="9" target="60" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="9" target="62" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="9" target="63" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Welches Jahr wird als Geburtsjahr des Internets betrachtet" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="60" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="1969" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="120" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" style="edgeStyle=none;html=1;" edge="1" parent="1" source="62">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="450" y="230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="62" value="2005" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="120" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" style="edgeStyle=none;html=1;" edge="1" parent="1" source="63">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="700" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="63" value="2001" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="120" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="Was ist die Abkürzung für die zentrale Recheneinheit eines Computers" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="230" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="SSD" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="310" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="GPU" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="310" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="CPU" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="310" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="Welches Protokoll wird verwendet, um Webseiten sicher zu übertragen?" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="230" width="240" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="JPEG" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="480" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="HTTP" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="480" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="DOCX" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="480" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="&lt;br&gt;Welche Programmiersprache wird häufig für die Entwicklung von Webanwendungen verwendet?" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="595" y="222.5" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="Alt + F4" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="660" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="Shift + Alt + F" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="660" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="Strg + Alt + F " style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="660" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="Was bedeutet die Abkürzung ‚USB‘?" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="585" y="420" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="Welches Dateiformat wird hauptsächlich für Bilder verwendet?" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="420" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="Welche Dateiendung wird am häufigsten für Webdokumente verwendet?" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="420" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="Welche Tastenkombination öffnet die Befehlspalette in Visual Studio Code?" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="590" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="Mit welcher Tastenkombination kannst du in Visual Studio Code eine neue Terminal-Sitzung öffnen?" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="590" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="Wie kann man eine Datei in Visual Studio Code automatisch formatieren?" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="590" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="Welche Extension ist nützlich, um Git-Änderungen, den Versionsverlauf und den Code-Autor direkt im Editor anzuzeigen?" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="770" width="240" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="Welche Extension wird häufig für die Live-Vorschau von HTML- und CSS-Dateien in einem Browser verwendet?" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="770" width="240" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="Welche Extension bietet Unterstützung für die Arbeit mit Python und enthält Funktionen wie Debugging" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="770" width="240" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="LifeServer" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="880" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="GitWatch" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="880" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="AntiBugg.py" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="645" y="880" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="Der Weg ist die Lösung" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="315" y="1000" width="270" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
