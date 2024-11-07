@@ -1,0 +1,50 @@
+Löse die 2 Aufgabe und erhalten den zwieten Buchstaben für das Lösungswort.
+
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Der geheime Pfad - Station 2</title>
+    <script>
+        function decodeAnswer() {
+            const encodedAnswer = [53, 51, 52, 56]; // Verschlüsselte Form von "2015" als ASCII-Codes
+            let decodedAnswer = "";
+            for (let i = 0; i < encodedAnswer.length; i++) {
+                decodedAnswer += String.fromCharCode(encodedAnswer[i] - 3); // Zurück zu "2015"
+            }
+            return decodedAnswer;
+        }
+
+        function checkAnswer() {
+            const answer = document.getElementById("year").value;
+            if (answer === decodeAnswer()) {
+                document.getElementById("revealButton").style.display = "inline";
+                document.getElementById("question").innerText = "Richtig! Klicke auf den Button, um den Hinweis zu erhalten.";
+            } else {
+                document.getElementById("question").innerText = "Falsch! Versuche es nochmal.";
+            }
+        }
+
+        function revealHint() {
+            let secretWord = "Obstgarten";
+            let hintLetter = secretWord.charAt(0); // Erster Buchstabe des Wortes
+            alert("Der gesuchte Buchstabe ist: " + hintLetter);
+        }
+    </script>
+</head>
+<body>
+    <h1>Willkommen zur nächsten Aufgabe!</h1>
+    <p>Beantworte die Frage, um den nächsten Hinweis zu erhalten:</p>
+    <p>In welchem Jahr wurde Visual Studio Code veröffentlicht?</p>
+    <input type="text" id="year" placeholder="Jahr eingeben">
+    <button onclick="checkAnswer()">Antwort prüfen</button>
+    
+    <p id="question"></p>
+    <button id="revealButton" onclick="revealHint()" style="display: none;">Hier klicken für den Hinweis</button>
+</body>
+</html>
+
+
+
+Tipp: Wie sieht der Code wohl in der Vorschau aus ?
