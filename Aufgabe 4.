@@ -1,43 +1,50 @@
 // Aufgabe 4. Der Code enthält Fehler, löse diese und erhalte den vierten Buchstaben.
 
-def add(a, b):
+def addiere(a, b):
     return a + b
 
-def subtract(a, b):
+def subtrahiere(a, b):
     return a - b
 
-def multiply(a, b):
-    return a * b
+def multipliziere(a, b)
+    return a * b  # Fehler 1: Fehlender Doppelpunkt am Ende der Funktionsdefinition
 
-def divide(a, b):
-    if b == 0:
-        raise ValueError("Cannot divide by zero!")
+def dividiere(a, b):
+    if b = 0:  # Fehler 2: Zuweisungsoperator statt Vergleichsoperator '=='
+        raise ValueError("Division durch Null ist nicht erlaubt!")
     return a / b
 
-def main():
-    x = 9
-    y = 1
+def berechne_buchstabe():
+    ascii_code = 64 + 9
+    return chr(ascii_code)
 
-    addition = add(x, y)
-    print(f"Addition: {add}")
+def hauptfunktion():
+    x = 10
+    y = 0
 
-    subtraction = subtract(x, y)
-    print(f"Subtraction: {sub}")
+    addition = addiere(x, y)
+    print(f"Addition: {addition}")
 
-    multiplication = multiply(x, y)
-    print(f"Multiplication: {multiplication}")
+    subtraktion = subtrahiere(x, y)
+    print(f"Subtraktion: {subtraktion}")
+
+    multiplikation = multipliziere(x, y)
+    print(f"Multiplikation: {multiplikation}")
 
     try:
-        division = divide(x, y)
+        division = dividiere(x, y)
         print(f"Division: {division}")
-    except ValueError as er:
-        print(eror)
+    except ValueError as fehler:
+        print(feler)  
 
-    text = "Result: " + 1
+    buchstabe = berechne_buchstabe()
+    print("Nächster Hinweis: " + buchstabe)
+
+    text = "Ergebnis: " + 12345  
     print(text)
 
-    my_list = ["A", "B", "I"]
-    print(my_list[3])
+    liste = [1, 2, 3]
+    print(liste[3])  
 
 if __name__ == "__main__":
-    main()
+    hauptfunktion()
