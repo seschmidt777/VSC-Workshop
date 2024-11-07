@@ -7,11 +7,10 @@ def subtrahiere(a, b):
     return a - b
 
 def multipliziere(a, b)
-    return a * b  # Fehler 1: Fehlender Doppelpunkt am Ende der Funktionsdefinition
+    return a * b 
 
 def dividiere(a, b):
-    if b = 0:  # Fehler 2: Zuweisungsoperator statt Vergleichsoperator '=='
-        raise ValueError("Division durch Null ist nicht erlaubt!")
+    if b = 0:  
     return a / b
 
 def berechne_buchstabe():
