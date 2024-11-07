@@ -1,0 +1,11 @@
+Löse die Aufgabe1 um an den ersten Buchstaben zu kommen. 
+
+
+<!DOCTYPE html>
+<html lang="de"><head><meta charset="UTF-8"><title>Der geheime Pfad - Station 1</title></head><body><div><h1>Willkommen, Suchender!</h1><p>Du bist auf der Suche nach dem ersten Hinweis.</p><p>Der Text ist absichtlich schwer zu lesen, und die Bedeutung bleibt verborgen, solange die Formatierung so durcheinander ist. </p><p>Wandle diesen Text in eine geordnete Form um, und du wirst das gesuchte Zeichen finden. </p><p> Hier   ein 
+Rätsel, um den Weg zu erleuchten: In der Welt der Buchstaben ist einer besonders wichtig. Er erscheint oft am Anfang von „Code“ und „Charakter“. </p><p>Nur mit diesem Zeichen kommst du weiter. Siehst du es nun? Es ist der Beginn des Wortes, das du suchst...</p><p> Hast du ihn gefunden? Dann ist das Zeichen klar: Der Buchstabe ist: _</p></div></body></html>
+
+
+
+
+Tipp: Hier wurde die FOrmatierung vergessen.
