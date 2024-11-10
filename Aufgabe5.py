@@ -1,7 +1,7 @@
 #%%
 import matplotlib.pyplot as plt
 
-# Frage 1: Natürlich! Hier ist eine Frage: Welcher britische Mathematiker veröffentlichte 1936 eine Arbeit, die als Grundlage der modernen Informatik gilt und in der das Problem der Berechenbarkeit untersucht wurde?
+# Frage 1: Welcher britische Mathematiker veröffentlichte 1936 eine Arbeit, die als Grundlage der modernen Informatik gilt und in der das Problem der Berechenbarkeit untersucht wurde?
 # Die Quersumme wird benötigt!
 x_links = 
 
