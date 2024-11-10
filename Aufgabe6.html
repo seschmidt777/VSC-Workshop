@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft vs. Apple Quiz</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+        }
+
+        #quiz {
+            margin-top: 20px;
+        }
+
+        #result {
+            font-size: 5em;
+            color: green;
+            margin-top: 30px;
+            display: none; /* Wird erst angezeigt, wenn das Quiz erfolgreich ist */
+        }
+
+        /* Animation für CODING */
+        .animate-coding {
+            animation: bounce 1s ease-in-out infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Microsoft vs. Apple Quiz</h1>
+    <div id="quiz">
+        <p id="question">Frage wird hier angezeigt...</p>
+        <input type="text" id="answer" placeholder="Antwort eingeben">
+        <button onclick="submitAnswer()">Antwort senden</button>
+    </div>
+    <div id="result"></div>
+
+    <script>
+        // JavaScript für das Quiz
+        const questions = [
+            { question: "Welches Unternehmen wurde zuerst gegründet, Apple oder Microsoft?", answer: "Apple" },
+            { question: "In welchem Jahr erschien der erste Macintosh-Computer?", answer: "1984" },
+            { question: "Wer war CEO von Microsoft während der Einführung von Windows 95?", answer: "Bill Gates" },
+            { question: "In den späten 90ern investierte Microsoft wie viele Millionen Dollar in Apple, um es vor dem Bankrott zu retten?", answer: "150" },
+            { question: "In welchem Jahr wurde der berühmte \"Get a Mac\"-Werbespot veröffentlicht?", answer: "2006" }
+        ];
+
+        let currentQuestion = 0;
+        let score = 0;
+
+        function displayQuestion() {
+            document.getElementById("question").textContent = questions[currentQuestion].question;
+            document.getElementById("answer").value = "";
+        }
+
+        function submitAnswer() {
+            const userAnswer = document.getElementById("answer").value.trim();
+            if (userAnswer.toLowerCase() === questions[currentQuestion].answer.toLowerCase()) {
+                score++;
+            }
+            currentQuestion++;
+
+            if (currentQuestion < questions.length) {
+                displayQuestion();
+            } else {
+                showResult();
+            }
+        }
+
+        function showResult() {
+            const resultElement = document.getElementById("result");
+            if (score === questions.length) {
+                resultElement.textContent = "CODING";
+                resultElement.classList.add("animate-coding");
+                resultElement.style.display = "block";
+            } else {
+                resultElement.textContent = `Du hast ${score} von ${questions.length} richtig.`;
+                resultElement.style.display = "block";
+            }
+        }
+
+        displayQuestion();
+    </script>
+</body>
+</html>
