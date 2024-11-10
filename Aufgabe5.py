@@ -1,11 +1,11 @@
 #%%
 import matplotlib.pyplot as plt
 
-# Frage 1: Welcher britische Mathematiker veröffentlichte 1936 eine Arbeit, die als Grundlage der modernen Informatik gilt und in der das Problem der Berechenbarkeit untersucht wurde?
-# Die Quersumme wird benötigt!
+# Frage 1: Welcher britische Mathematiker veröffentlichte  eine Arbeit, die als Grundlage der modernen Informatik gilt und in der das Problem der Berechenbarkeit untersucht wurde?
+# Die Quersumme des Veröffentlichungsjahr wird benötigt!
 x_links = 
 
-# Frage 2: Wie viele Zeilen zählen wir im Namen eines digitalen Kommunikationsmittels, das 1971 entstand und heute noch weit verbreitet ist?
+# Frage 2: Wie viele Buchstaben zählen wir im Namen eines digitalen Kommunikationsmittels, das 1971 entstand und heute noch weit verbreitet ist?
 y_start =   
 
 # Frage 3: Wie lange wurd der erste vollelektronische Computer entwickelt?
@@ -13,6 +13,7 @@ y_start =
 y_ende =   
 
 # Frage 4: Welche beiden Ziffern markieren das Jahr, in dem der Grundstein für das weltweite Netz gelegt wurde?
+# Hintere 2 Ziffern!
 
 x_rechts =   
 
