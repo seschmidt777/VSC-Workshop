@@ -42,25 +42,18 @@
     <div id="incorrect"></div>
 
     <script>
-        
         const questions = [
-            { question: "Wie nennt man die Funktion in VS Code, die Code automatisch vervollständigt?", encodedAnswer: "aW50ZWxsaXNlbnNl" }, 
-            { question: "Welcher Bereich in VS Code zeigt alle Dateien und Ordner deines Projekts an?", encodedAnswer: "ZXhwbG9yZXI=" }, 
-            { question: "Mit welchem Befehl in VS Code kannst du den Code automatisch formatieren?", encodedAnswer: "Zm9ybWF0IGRvY3VtZW50" }, 
-            { question: "Wie nennt man in VS Code kleine Programme zur Erweiterung der Funktionalität?", encodedAnswer: "ZXJ3ZWl0ZXJ1bmdlbg==" }, 
-            { question: "Wie heißt die Konsole in VS Code, in der du Fehler und Ausgaben sehen kannst?", encodedAnswer: "dGVybWluYWw=" }, 
-            { question: "In welchem Jahr wurde Visual Studio Code erstmals veröffentlicht?", encodedAnswer: "MjAxNQ==" }, 
-            { question: "Wie heißt die Funktion, die es dir erlaubt, mehrere Stellen im Code gleichzeitig zu bearbeiten?", encodedAnswer: "bXVsdGktY3Vyc29y" }, 
-            { question: "Wie kannst du in VS Code alle installierten Erweiterungen anzeigen?", encodedAnswer: "ZXh0ZW5zaW9ucyB2aWV3" }, 
-            { question: "Wie nennt man den Bereich, der dir Fehler und Warnungen im Code anzeigt?", encodedAnswer: "cHJvYmxlbXMgcGFuZWw=" }, 
-            { question: "Wie speichert VS Code benutzerdefinierte Projekteinstellungen?", encodedAnswer: "c2V0dGluZ3MuanNvbg==" } 
+            { question: "Welches Framework ermöglicht es, dass VS Code auf Windows, Linux und macOS läuft?", encodedAnswer: "RWxlY3Ryb24=" },
+            { question: "Welches Entwicklungsmodell fördert die Community, indem sie an Erweiterungen für VS Code arbeitet?", encodedAnswer: "T3BlbiBTb3VyY2U=" },
+            { question: "Für welchen Entwicklungsbereich wurde VS Code ursprünglich optimiert?", encodedAnswer: "V2Vi" },
+            { question: "Welche Funktion in VS Code ermöglicht es, in Containern oder auf entfernten Maschinen zu entwickeln?", encodedAnswer: "UmVtb3Rl" },
+            { question: "Welcher Cloud-Dienst ist eng in die Funktionen von VS Code integriert?", encodedAnswer: "QXp1cmU=" }
         ];
 
         let currentQuestion = 0;
         let score = 0;
         let incorrectAnswers = [];
 
-        
         function decodeBase64(encoded) {
             return atob(encoded);
         }
@@ -72,7 +65,7 @@
 
         function submitAnswer() {
             const userAnswer = document.getElementById("answer").value.trim().toLowerCase();
-            const correctAnswer = decodeBase64(questions[currentQuestion].encodedAnswer);
+            const correctAnswer = decodeBase64(questions[currentQuestion].encodedAnswer).toLowerCase();
 
             if (userAnswer === correctAnswer) {
                 score++;
