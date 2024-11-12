@@ -1,4 +1,4 @@
-// Aufgabe 4. Der Code enthält Fehler, löse diese und erhalte den vierten Buchstaben.
+// Aufgabe 4. Der Code enthält Fehler, löse die Fehler und erhalte den vierten Buchstaben.
 
 def addiere(a, b):
     return a + b
