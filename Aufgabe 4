@@ -10,8 +10,10 @@ def multipliziere(a, b)
     return a * b 
 
 def dividiere(a, b):
-    if b = 0:  
-    return a / b
+    if b != 0:
+        return a / b
+    else:
+        return "Division durch null nicht möglich"
 
 def berechne_buchstabe():
     ascii_code = 64 + 9
